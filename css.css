@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+.con1{
+    height: 920px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(./photo-1465101162946-4377e57745c3.jpg) center no-repeat;
+    background-size: cover;
+    color: white;
+}
+.header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+    height: 80px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.logo img{
+    margin: 0 auto;
+}
+.nav{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+.nav li{
+    font-size: 25px;
+}
+.nav li a{
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.nav li:hover a,.nav li a:focus{
+    color: sandybrown;
+}
+.maintext{
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+    cursor: default;
+}
+.maintext h1{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.maintext h2{font-size: 45;
+    margin-bottom: 40px;}
+.maintext h3{font-size: 40;}
+.maintext button{
+    margin-top: 90px;
+    width: 180px;
+    height: 60px;
+    border: 1px solid wheat;
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+
+    position: relative;
+    z-index: 99;
+}
+.maintext button:hover, .maintext button:focus{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.mouse{
+    text-align: center;
+    padding-top: 120px;
+    font-size: 50px;
+    animation: upDown 1s ease-in-out infinite;
+}
+@keyframes upDown{
+    0%{
+        transform: translateY(-0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(-0px);
+    }
+}
+.about{
+width: 1200px;
+height: 700px;
+margin: 0 auto;
+margin-top: 100px;
+}
+.about h3{
+color: cadetblue;
+font-size: 35px;
+}
+.about h2{
+color: black;
+font-size: 50px;
+}
+.about-con{
+width: 1200px;
+height: 500px;
+display: flex;
+}
+.about-con .left{
+width: 400px;
+height: 500px;
+}
+.about-con .left img{
+    width: 400px;
+    height: 500px;
+}
+.about-con .right{
+width: 800px;
+height: 500px;
+padding-left: 30px;
+}
+.about-con .right h4{
+    font-size: 25px;
+
+}
+.about-con .right .name{
+    color: gray;
+}
+.about-con .right li{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.about-con .right i{
+    font-size: 40px;
+    margin-left: 10px;
+}
+.about-con .right .fa-youtube:hover{
+    color: red;
+}
+.about-con .right .fa-discord:hover{
+    color: #5865f2;
+}
+.about-con .right .fa-steam:hover{
+    color: darkblue;
+}
+.skills{
+    background-color: #eee;
+    height: 700px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.skills-inner{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+.skills-inner h3{
+    color: cadetblue;
+    font-size: 35px;
+}
+.skills-inner h2{
+    color: black;
+    font-size: 50px;
+}
+.skills-inner ul{width: 100%;height: 500px;display: flex;justify-content: space-around;align-items: center;}
+.skills-inner ul li{width: 330px;height: 300px;text-align: center; padding: 15px; border: 1px solid rgb(44, 28, 117);background-color: white; border-radius: 20px;}
+.skills-inner ul li:hover , .skills-inner ul li:focus{background-color: rgb(84, 82, 85); color: white;}
+.skills-inner i{font-size: 70px;}
+.skills-inner p{
+    margin-top: 30px;
+}
+.bg2{
+    height: 850px;
+    background: url(./bg2.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed ;
+}
