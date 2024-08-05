@@ -19,7 +19,7 @@ li{
 }
 .con1{
     height: 920px;
-    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(./photo-1465101162946-4377e57745c3.jpg) center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(photo-1465101162946-4377e57745c3.jpg) center no-repeat;
     background-size: cover;
     color: white;
 }
@@ -191,7 +191,7 @@ padding-left: 30px;
 }
 .bg2{
     height: 850px;
-    background: url(./bg2.jpg) center no-repeat;
+    background: url(bg2.jpg) center no-repeat;
     background-size: cover;
     background-attachment: fixed ;
 }
