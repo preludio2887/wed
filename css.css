@@ -22,12 +22,21 @@ li{
     background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(photo-1465101162946-4377e57745c3.jpg) center no-repeat;
     background-size: cover;
     color: white;
+    margin-top: -50px;
+    padding-top: 100px;
 }
-.header{
+.header {
+    width: 100%;
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed; 
+    top: 0;
+    z-index: 1000;
+}
+.act{
+    background-color: black;
 }
 .logo{
     width: 200px;
@@ -195,3 +204,130 @@ padding-left: 30px;
     background-size: cover;
     background-attachment: fixed ;
 }
+.projects{width: 1200px;height: 800px; margin: 0 auto;margin-top: 200px;position: relative;}
+.projects h3{
+    color: cadetblue;
+    font-size: 35px;
+}
+.projects h2{
+    color: black;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.item{
+    width: 600px;height: 200px;border: 1px solid #ccc;margin: 0 auto;display: flex; margin-bottom: 20px;
+    background-color: white;color: black;
+    
+}.item:hover{
+    background-color: #ddd;
+    color: black;
+}.item:hover img{
+    opacity: 0.6;
+}
+.item:hover .detail{
+    background-color: white;
+}
+.item-img{
+    width: 200px;
+    height: 200px;
+}
+.item-img img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+}
+.item-text{
+    width: 400px;height: 200px;padding: 20px;position: relative;
+}
+.detail{
+    width: 80px;height: 35px;padding: 5px;background-color: rgb(218, 200, 200); position: absolute;right: 30px;bottom: 20px;border: none;font-weight: bold;
+}
+.modal1, .modal2 ,.modal3{
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    z-index: 5;
+    font-size: 20px;
+    padding: 25px;
+    background-color: white;
+    display: none;
+    
+}
+.modal1 button, .modal2 button , .modal3 button{
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
+    width: 100px;
+    height: 30px;
+}
+.contact{
+    background-color: #eee;
+    height: 700px;
+    margin-top: 50px;
+    padding-top: 50px;}
+.contact-inner{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;}
+.contact-inner h3{
+    color: cadetblue;
+    font-size: 35px;}
+.contact-inner h2{
+    color: black;
+    font-size: 50px;}
+.box{
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+.box .le{
+    width: 250px;
+    height: 450px;
+    
+}
+.info{
+    background-color: wheat;
+    width: 250px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid darkgray;
+    padding-left: 20px;
+    padding-top:15px;
+}
+.info h5{
+    font-size: 20px;
+}
+.box .rig{
+    width: 800px;
+    height: 450px;
+  
+}
+.memo{
+    width: 800px;
+    height: 40px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.memo h2{
+    font-size: 20px;
+    font-weight: normal;
+
+}
+.memo input{
+    width: 700px;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.memo textarea{
+    width: 720px;
+    height: 200px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.rig button{display: block;margin-left: 700px;margin-top: 250px; margin-bottom: 10px;width: 75px;background-color: gray;}
